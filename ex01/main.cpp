@@ -35,6 +35,8 @@ int main( void )
 
     Span span2(20000);
 
+    std::cout << "Max size of span2 :" << span2.getMaxSize() << " Contains :"
+         << span2.getSize() << "numbers" << std::endl;
     span2.randomFill();
     std::cout << span2 << std::endl;
 
