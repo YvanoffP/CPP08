@@ -10,7 +10,7 @@ Span::Span( void ): _storedSize(0)
     return ;
 }
 
-Span::Span( int n ): _storedSize(n), _vect(0)
+Span::Span( unsigned int n ): _storedSize(n), _vect(0)
 {
     return ;
 }

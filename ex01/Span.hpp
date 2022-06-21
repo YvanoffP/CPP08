@@ -9,7 +9,7 @@ class Span
 
 public:
     Span( void );
-    Span( int n );
+    Span( unsigned int n );
     Span( const Span &src );
     ~Span( void );
 
